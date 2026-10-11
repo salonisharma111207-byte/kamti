@@ -1,0 +1,13 @@
+list=[11,25,1,45,90,56,4,0,67]
+print(list)
+list.append(8)
+print(list)
+list.sort()
+print(list)
+print(list.reverse())
+print(list.index(0))
+print(list.count(0))
+m=list.copy()
+m[0]=10
+print(m)
+print(list.insert(1,45))
