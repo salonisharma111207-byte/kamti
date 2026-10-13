@@ -11,3 +11,9 @@ m=list.copy()
 m[0]=10
 print(m)
 print(list.insert(1,45))
+
+#sum
+total=(sum(list))
+print(total)
+average=total/len(list)
+print(average)
